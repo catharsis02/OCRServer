@@ -1,0 +1,13 @@
+fastapi[standard]>=0.139.0
+joblib>=1.5.3
+onnx>=1.22.0
+onnxruntime>=1.27.0
+opencv-contrib-python>=4.13.0.92
+openvino>=2026.2.1
+pillow>=12.2.0
+pyclipper>=1.4.0
+pypdfium2==5.10.1
+python-bidi>=0.6.10
+python-docx>=1.2.0
+pyyaml>=6.0.3
+tqdm>=4.68.3
