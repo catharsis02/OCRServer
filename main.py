@@ -1,3 +1,4 @@
+import uvicorn
 import logging
 import io
 from pathlib import Path
@@ -224,3 +225,6 @@ async def download_docx(req: DocxRequest):
             "Content-Disposition": 'attachment; filename="ocr_output.docx"'
         },
     )
+
+if __name__ == "__main__":
+    uvicorn.run(app=app,host="127.0.0.1",port=8000)
